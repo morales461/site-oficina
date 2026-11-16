@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #ffffff;
+  color: #0b1c2d;
+}
+
+/* TOPO */
+.top {
+  background: linear-gradient(135deg, #0b1c2d, #42a5f5);
+  color: #ffffff;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.logo-redonda {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+}
+
+.top h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.top p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #ffffff;
+  color: #0b1c2d;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e3f2fd;
+}
+
+/* MENU */
+.menu {
+  background: #0b1c2d;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu a {
+  color: #ffffff;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* SEÇÕES */
+.section {
+  padding: 60px 20px;
+}
+
+.bg-light {
+  background: #e3f2fd;
+}
+
+.bg-dark {
+  background: #0b1c2d;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.section p {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* SERVIÇOS */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 6px solid #42a5f5;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+/* GALERIA */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+/* CONTATO */
+.contato p {
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+/* RODAPÉ */
+footer {
+  background: #081521;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.numero-topo {
+  display: none;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.numero-topo.ativo {
+  display: block;
+}

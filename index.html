@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedrinho Auto Elétrica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOPO -->
+  <header class="top">
+    <img src="WhatsApp Image 2026-01-14 at 19.14.46.jpeg"
+         alt="Auto Elétrico Pedrinho"
+         class="logo-redonda">
+
+    <h1>Pedrinho Auto Elétrica</h1>
+    <p>Elétrica automotiva com confiança, qualidade e tecnologia</p>
+
+    <button class="btn" onclick="mostrarNumero()">
+      Fale Conosco
+    </button>
+
+    <p id="numero-topo" class="numero-topo">
+      📞 (11) 91362-4643
+    </p>
+  </header>
+
+  <!-- MENU -->
+  <nav class="menu">
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre a Oficina</h2>
+      <p>
+        Atuamos com elétrica automotiva em geral, oferecendo diagnóstico preciso,
+        manutenção elétrica, instalação de acessórios e som automotivo.
+        Atendimento honesto e de qualidade.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="section bg-light">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+
+      <div class="services">
+        <div class="service-card">Diagnóstico elétrico</div>
+        <div class="service-card">Som automotivo</div>
+        <div class="service-card">Baterias e alternador</div>
+        <div class="service-card">Iluminação automotiva</div>
+        <div class="service-card">Manutenção elétrica</div>
+        <div class="service-card">Correção de falhas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="section">
+    <div class="container">
+      <h2>Galeria de Serviços</h2>
+
+      <div class="gallery">
+        <img src="WhatsApp Image 2026-01-15 at 21.02.39 (1).jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.02.39 (2).jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.02.39 (3).jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.02.39 (4).jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.02.39.jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.03.22.jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.14.27 (1).jpeg">
+        <img src="WhatsApp Image 2026-01-15 at 21.14.27.jpeg">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section bg-dark">
+    <div class="container contato">
+      <h2>Contato</h2>
+      <p>📞 (11) 91362-4643</p>
+      <p>📧 pedrinhoautoeletrico3@gmail.com</p>
+      <p>📍 Rua Balão Mágico, 1512</p>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>© 2026 Pedrinho Auto Elétrica • Todos os direitos reservados</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    function mostrarNumero() {
+      const numero = document.getElementById("numero-topo");
+      numero.classList.toggle("ativo");
+    }
+  </script>
+
+</body>
+</html>
